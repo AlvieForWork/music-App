@@ -13,6 +13,10 @@
 		F4D48799284732E100ED8D79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4D48797284732E100ED8D79 /* Main.storyboard */; };
 		F4D4879B284732E200ED8D79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4D4879A284732E200ED8D79 /* Assets.xcassets */; };
 		F4D4879E284732E200ED8D79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4D4879C284732E200ED8D79 /* LaunchScreen.storyboard */; };
+		F4D487A8284738A100ED8D79 /* mk gee.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F4D487A7284738A100ED8D79 /* mk gee.mp4 */; };
+		F4D487AA284738B000ED8D79 /* Fazerdaze.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F4D487A9284738B000ED8D79 /* Fazerdaze.mp4 */; };
+		F4D487AD284742E900ED8D79 /* musicAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D487AC284742E900ED8D79 /* musicAppViewController.swift */; };
+		F4D487AF28474EB100ED8D79 /* musicList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D487AE28474EB100ED8D79 /* musicList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,11 @@
 		F4D4879A284732E200ED8D79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4D4879D284732E200ED8D79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F4D4879F284732E200ED8D79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4D487A7284738A100ED8D79 /* mk gee.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "mk gee.mp4"; sourceTree = "<group>"; };
+		F4D487A9284738B000ED8D79 /* Fazerdaze.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fazerdaze.mp4; sourceTree = "<group>"; };
+		F4D487AB284738B600ED8D79 /* the fur.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "the fur.mp4"; sourceTree = "<group>"; };
+		F4D487AC284742E900ED8D79 /* musicAppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = musicAppViewController.swift; sourceTree = "<group>"; };
+		F4D487AE28474EB100ED8D79 /* musicList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = musicList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +68,15 @@
 				F4D48791284732E100ED8D79 /* AppDelegate.swift */,
 				F4D48793284732E100ED8D79 /* SceneDelegate.swift */,
 				F4D48795284732E100ED8D79 /* ViewController.swift */,
+				F4D487AC284742E900ED8D79 /* musicAppViewController.swift */,
+				F4D487AE28474EB100ED8D79 /* musicList.swift */,
 				F4D48797284732E100ED8D79 /* Main.storyboard */,
 				F4D4879A284732E200ED8D79 /* Assets.xcassets */,
 				F4D4879C284732E200ED8D79 /* LaunchScreen.storyboard */,
 				F4D4879F284732E200ED8D79 /* Info.plist */,
+				F4D487A7284738A100ED8D79 /* mk gee.mp4 */,
+				F4D487A9284738B000ED8D79 /* Fazerdaze.mp4 */,
+				F4D487AB284738B600ED8D79 /* the fur.mp4 */,
 			);
 			path = musicApp;
 			sourceTree = "<group>";
@@ -126,7 +140,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4D4879E284732E200ED8D79 /* LaunchScreen.storyboard in Resources */,
+				F4D487AA284738B000ED8D79 /* Fazerdaze.mp4 in Resources */,
 				F4D4879B284732E200ED8D79 /* Assets.xcassets in Resources */,
+				F4D487A8284738A100ED8D79 /* mk gee.mp4 in Resources */,
 				F4D48799284732E100ED8D79 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +154,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4D487AD284742E900ED8D79 /* musicAppViewController.swift in Sources */,
 				F4D48796284732E100ED8D79 /* ViewController.swift in Sources */,
 				F4D48792284732E100ED8D79 /* AppDelegate.swift in Sources */,
 				F4D48794284732E100ED8D79 /* SceneDelegate.swift in Sources */,
+				F4D487AF28474EB100ED8D79 /* musicList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
